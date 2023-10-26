@@ -1,7 +1,7 @@
 interface IButtonProps {
   label: string;
   className?: string;
-  onClick?: () => void;
+  handleClick?: () => void;
 }
 
 export default IButtonProps;

@@ -4,10 +4,10 @@ import IButtonProps from "../interfaces/IButtonProps";
 const Button: React.FunctionComponent<IButtonProps> = ({
   label,
   className,
-  onClick,
+  handleClick,
 }: IButtonProps) => {
   return (
-    <button onClick={onClick} className={`border p-2 ${className}`}>
+    <button onClick={handleClick} className={`border p-2 ${className}`}>
       {label}
     </button>
   );
